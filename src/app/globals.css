@@ -320,7 +320,7 @@ nav a:hover {
         max-width: 100vw !important;
         position: relative !important;
         min-height: 100dvh !important;
-        background-color: #0f172a !important;
+        background-color: #22043f !important;
     }
 
     .container {
@@ -425,5 +425,10 @@ nav a:hover {
     #contacto > div {
         flex: 1 1 100% !important;
         width: 100% !important;
+    }
+
+    .card a img {
+    object-position: 25% center !important; /* Desplaza la imagen hacia la derecha (80%) */
+    /* Puedes cambiar el 80% por el porcentaje que mejor te encaje */
     }
 }
