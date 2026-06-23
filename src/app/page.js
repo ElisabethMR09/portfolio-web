@@ -80,6 +80,20 @@ export default function Home() {
               </span>
             </div>
           </div>
+          {/* ========================================== */}
+          {/* AÑADE ESTE NUEVO BLOQUE PARA EL BOTÓN CV   */}
+          {/* ========================================== */}
+          <div style={{ marginTop: '2.5rem' }}>
+            <a 
+              href="/cv_elisabet_maestre.pdf" 
+              download="cv_elisabet_maestre.pdf" 
+              className="btn"
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}
+            >
+              📄 Descargar CV
+            </a>
+          </div>
+          {/* ========================================== */}
         </div>
 
         {/* Tu foto (Derecha) */}
